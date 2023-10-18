@@ -45,7 +45,7 @@ static const uint8_t u8x8_d_ssd1306_128x64_noname_init_seq[] = {
   
   
   U8X8_C(0x0ae),		                /* display off */
-  U8X8_CA(0x0d5, 0x080),		/* clock divide ratio (0x00=1) and oscillator frequency (0x8) */
+  U8X8_CA(0x0d5, 0x0f0),		/* clock divide ratio (0x00=1) and oscillator frequency (0x8) */
   U8X8_CA(0x0a8, 0x03f),		/* multiplex ratio */
   U8X8_CA(0x0d3, 0x000),		/* display offset */
   U8X8_C(0x040),		                /* set display start line to 0 */
